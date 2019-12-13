@@ -1,13 +1,13 @@
 function checkSaldo(){
-    var mySaldo=500;
+    var mySaldo=5080;
 
-    if(mySaldo<25){
+    if(mySaldo<500){
        document.getElementById("mySaldo").innerHTML="Sorry, je hebt te weinig saldo!";
     }
     else if(mySaldo>500){
-        document.getElementById("mySaldo").innerHTML="Je hebt voldoende saldo om € 25 op te nemen, je krijgt nu het geld. ";
+        document.getElementById("mySaldo").innerHTML="U heeft salaris en een bonus ontvangen. ";
     }
     else{
-        document.getElementById("mySaldo").innerHTML="Je hebt voldoende saldo om € 25 op te nemen";
+        document.getElementById("mySaldo").innerHTML="U heeft salaris gekregen.";
     }
 }

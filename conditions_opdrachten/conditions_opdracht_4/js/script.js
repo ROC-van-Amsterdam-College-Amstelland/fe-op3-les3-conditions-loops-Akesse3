@@ -1,1 +1,1 @@
-//javascript code
+var myNumber; 
